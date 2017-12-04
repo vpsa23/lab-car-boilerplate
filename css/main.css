@@ -1,1 +1,151 @@
+/*RESETEANDO LA PAGINA*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /* Los estilos de tu proyecto */
+/*MENU*/
+nav{
+  background-color: #fff;
+}
+
+.navbar-brand img{
+	width: 80%;
+  padding: 10%;
+}
+
+#navbarNavAltMarkup{
+	margin-left: 60%;
+}
+
+.nav-item {
+
+}
+
+/*PRIMERA SECCIÓN*/
+#container1{
+  background-image: url(../assets/images/taxi.jpg);
+  background-size: cover;
+  background-position: 0% 92%;
+  height: 100vh;
+}
+
+#row1 .col-4{
+  background-color: #ffc107;
+  height: 50vh;
+  margin-left: 66.7%;
+  margin-top: 13.2%;
+}
+
+#row1 h2{
+  color: #fff;
+  margin-top: 8%;
+  margin-left: 4%;
+  line-height: 2px;
+}
+
+#row1 h5{
+  margin-top: 12%;
+  margin-left: 4.5%;
+  color: #FFF;
+}
+
+#row1 h5 img{
+  width: 22%;
+  margin-left: 2%;
+}
+
+#registro{
+  margin-left: 4%;
+  text-transform: uppercase;
+  font-weight: 500;
+  height: 11.5%;
+  margin-top: 2%;
+}
+
+#conductor{
+  margin-left: 4%;
+  font-weight: 500;
+  height: 11.5%;
+  margin-top: 2%;
+}
+
+#row1 p{
+  color: #FFF;
+  margin-left: 45%;
+  font-weight: 500;
+}
+
+/*SEGUNDA SECCION*/
+#container2{
+  background-color: #ffc107;
+  height: 90vh;
+}
+
+#borde{
+  border: 1px solid #FFF; 
+  width: 85%;
+  height: 70vh;
+  margin-top: 5%;
+  border-left: none;
+}
+
+#cuadro img{
+  width: 115%;
+  margin-top: 30%;
+  margin-left: 45%;
+}
+
+#cuadro1 h4, p{
+  margin-left: 60%;
+  margin-top: -37%;
+  color: #FFF;
+  width: 40%;
+}
+
+#cuadro1 p{
+  margin-top: 2%;
+}
+
+#cuadro1 h4{
+  text-align: center;
+  font-size: 28px;
+}
+
+/*TERCERA SECCIÓN*/
+#container3{
+  background-image: url(../assets/images/conduce.jpg);
+  background-size: cover;
+  background-position: 0% 55%;
+  height: 70vh;
+}
+
+#row3 .col-4{
+  background-color: rgba(0,0,000,0.5);
+  height: 70vh;
+  margin-left: 66.7%;
+}
+
+#row3 h3{
+  color: #FFF;
+  text-align: center;
+  margin-top: 25%;
+}
+
+#row3 p{
+  color: #FFF;
+  margin-left: 12.3%;
+  width: 80%;
+}
+
+#conductor1{
+  background-color: #ffc107;
+  border: none;
+  color: #FFF;
+  font-weight: 500;
+  margin-left: 13%;
+}
+
+
