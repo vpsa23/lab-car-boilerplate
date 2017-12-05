@@ -39,6 +39,13 @@ nav{
   margin-top: 13.2%;
 }
 
+/*VERSION MOVIL*/
+#row1 h1, #app{
+  display: none;
+}
+
+
+/*VERSION ESCRITORIO*/
 #row1 h2{
   color: #fff;
   margin-top: 8%;
@@ -78,12 +85,23 @@ nav{
   font-weight: 500;
 }
 
+
 /*SEGUNDA SECCION*/
 #container2{
   background-color: #ffc107;
   height: 90vh;
 }
 
+/*VERSION MOVIL*/
+#newApp{
+  display: none;
+}
+
+#destination{
+  display: none;
+}
+
+/*VERSION ESCRITORIO*/
 #borde{
   border: 1px solid #FFF; 
   width: 85%;
@@ -122,16 +140,27 @@ nav{
   height: 70vh;
 }
 
-#row3 .col-4{
+#text{
   background-color: rgba(0,0,000,0.5);
-  height: 70vh;
-  margin-left: 66.7%;
+  height: 456px;
+  margin-left: 217.9%;
+  width: 100%;
 }
 
-#row3 h3{
+/*VERSION MOVIL*/
+#conduce{
+  display: none;
+}
+
+#parrafo{
+  display: none;
+}
+
+/*VERSION ESCRITORIO*/
+#text h3{
   color: #FFF;
   text-align: center;
-  margin-top: 25%;
+  padding-top: 25%;
 }
 
 #row3 p{
@@ -148,4 +177,130 @@ nav{
   margin-left: 13%;
 }
 
+/*CUARTA SECCIÓN*/
+#container4{
+  background-color: #ffc107;
+  height: 80vh;
+}
 
+#row4 h3{
+  color: #FFF;
+  margin-top: 10%;
+}
+
+#row4 p{
+  color: #FFF;
+  margin-left: 1%;
+  font-weight: 400;
+}
+
+#row4 select{
+  width: 55%;
+  height: 6vh;
+  margin-top: 3%;
+  margin-left: 5%;
+  background-color: #ffc107;
+  color: #FFF;
+  border: 1.5px solid #FFF;
+}
+
+#ruta{
+  margin-top: 5%;
+  margin-left: 20%;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/*VERSION MOVIL*/
+#consulta{
+  display: none;
+}
+
+/*ICONOS*/
+#photo1{
+  margin-top: 190%;
+  margin-left: 120%;
+}
+
+#photo2{
+  margin-left: 120%;
+  margin-top: 50%;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+  margin-top: 12%;
+  margin-left: -20%;
+}
+
+/*FOOTER*/
+#container5{
+  background-color: #252022;
+  height: 90vh;
+}
+
+#row5 img{
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+#row5 #firstLine{
+  background-color: #FFF;
+  margin-left: 15%;
+  width: 210%;
+}
+
+#file1 ul{
+  color: #FFF;
+  text-decoration: none; 
+  list-style: none;
+  width: 150%;
+  line-height: 40px;
+  margin-left: -180%;
+  margin-top: 150%;
+}
+
+#file2 ul{
+  color: #FFF;
+  text-decoration: none; 
+  list-style: none;
+  width: 150%;
+  line-height: 40px;
+  margin-left: 60%;
+  margin-top: 150%;
+}
+
+#row5 #secondLine{
+  background-color: #FFF;
+  width: 80%;
+  margin-left: 8%;
+}
+
+#row5 #photo3{
+  margin-top: -130%;
+  margin-left: 500%;
+  width: 70%;
+}
+
+#row5 #photo4{
+  margin-top: -100%;
+  margin-left: 500%;
+  width: 70%;
+}
+
+#icons{
+  color: #FFF;
+  margin-left: -10%;
+  font-size: 25px;
+  margin-top: -5%;
+}
+
+#finish{
+  margin-left: -50%;
+}
+
+/*VERSION MOVIL*/
+#finish1{
+  display: none;
+}
